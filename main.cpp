@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "pasword/pasword.cpp"
+#include "pasword.cpp"
 using namespace std;
 
 int main(){
