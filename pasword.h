@@ -1,3 +1,4 @@
+#define ASCISIZE 127
 struct Pasword
 {
     int size = 1;
