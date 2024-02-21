@@ -1,13 +1,14 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "pasword.cpp"
+#include "pasword/pasword.cpp"
 using namespace std;
 
 int main(){
 	Pasword firstPasword;
-	firstPasword.leters[0]='a';
+	firstPasword.leters[0]=0;
+	firstPasword.size=1;
+	resizePasword(firstPasword,4,0);	 
 	showPasword(firstPasword);
-	resizePasword(firstPasword,firstPasword.size,'a');
-	showPasword(firstPasword);
+	iteretePossiblePaswords(firstPasword);
 }
